@@ -1,0 +1,9 @@
+Chef actions can be found at docs.chef.io
+
+When running ChefZero for a singluar local instance:
+
+Perform basic syntax check with "cookstyle <filename>"
+
+Perform a smoke test with "chef-client --local-mode <filename> --why-run"
+
+Perform a real run of the file with "chef-client --local-mode <filename>"
